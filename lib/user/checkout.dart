@@ -65,6 +65,7 @@ class _CheckoutState extends State<Checkout> {
       displayPaymentSheet();
     }
     catch(e){
+
       print("FAiled: ${e}");
     }
 
