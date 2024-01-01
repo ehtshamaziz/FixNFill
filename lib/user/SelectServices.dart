@@ -86,9 +86,9 @@ class _SideServicesState extends State<SideServices> {
     final item = filteredItems[index];
     late String imagePath;
     if(item.category=="AC Filter"){
-      imagePath='assets/AC filter.jpg';
+      imagePath='assets/AC_filter.jpg';
     }else if(item.category=="Fan Repair"){
-      imagePath='assets/Fan Repair.jpg';
+      imagePath='assets/Fan_Repair.jpg';
 
     }else if(item.category=="Lockmaker"){
       imagePath='assets/lockmaker.jpg';
